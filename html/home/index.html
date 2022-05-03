@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hato-home</title>
+  <link rel="stylesheet" href="/css/home/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />  <!-- for the quote's quote-->
+</head>
+
+<body>
+  <nav class="navbar">
+    <ul class="navbar-nav">
+      <li class="logo">
+        <a href="#" class="nav-link">
+          <img class="home" src="/static/logo1.png" alt="" />
+          <span class="link-text logo-text">BBZ</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="/html/home/index.html" class="nav-link">
+          <img class="home" src="/static/Home-icon.svg.png" alt="" />
+          <span class="link-text">Home</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="/html/Profile/index.html" class="nav-link">
+          <img class="home" src="/static/Profile-icon.png" alt="" />
+          <span class="link-text">Profiles</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="/html/ranking/index.html" class="nav-link">
+          <img class="home" src="/static/rank-icon.png" alt="" />
+          <span class="link-text">Rankings</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="https://rowin-c.github.io/DBMS_PROJECT/" target="blank" class="nav-link">
+          <img class="home" src="/static/about.png" alt="" />
+          <span class="link-text">About Us</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="/html/login/index.html" target="blank" class="nav-link">
+          <img class="home" src="/static/logout.png" alt="" />
+          <span class="link-text">Log Out</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <div class="welcome">
+      <h1>Hi,</h1>
+      <h1> Ron</h1>
+    </div>
+    <div class="card">
+      <div><img src="/static/musk.jpg" alt=""></div>
+      <div class="right">
+        <h1>Elon Musk</h1>
+        <p>Elon Reeve Musk FRS (born June 28, 1971) is an entrepreneur, investor, and business magnate.</p>
+        <h2>Rate:</h2>
+        <div class="rating">
+          <input type="radio" name="star" id="star5"><label for="star5"></label>
+          <input type="radio" name="star" id="star4"><label for="star4"></label>
+          <input type="radio" name="star" id="star3"><label for="star3"></label>
+          <input type="radio" name="star" id="star2"><label for="star2"></label>
+          <input type="radio" name="star" id="star1"><label for="star1"></label>
+        </div>
+
+      </div>
+    </div>
+    <div class="comment">
+      <div class="rline">
+        <textarea placeholder="🎤 so, what do you think of him?" name="comments" id="comments" cols="10" rows="2"></textarea>
+      </div>
+      <h2>Ronwinner</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit facilis eaque amet saepe assumenda. Illo sequi
+        odio accusantium. Sit architecto quas soluta tempore, optio dolores atque odit omnis similique quisquam quidem
+      </p>
+      <h2>Ronwinner</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit facilis eaque amet saepe assumenda. Illo sequi
+        odio accusantium. Sit architecto quas soluta tempore, optio dolores atque odit omnis similique quisquam quidem
+      </p>
+      <h2>Ronwinner</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit facilis eaque amet saepe assumenda. Illo sequi
+        odio accusantium. Sit architecto quas soluta tempore, optio dolores atque odit omnis similique quisquam quidem
+      </p>
+    </div>
+    <div class="wrapper">
+      <div class="link_wrapper">
+        <button type="submit" href="#">SAVE & NEXT</button>
+        <div class="icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+            <path
+              d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z" />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <h3>--made with ❤️ by Team 6 </h3>
+    </div>
+
+    <div class="trapper">
+      <header>Quote of the Day</header>
+      <div class="content">
+        <div class="quote-area">
+          <i class="fas fa-quote-left"></i>
+          <p class="quote">This is a random quote generator click to generate random quotes</p>
+          <i class="fas fa-quote-right"></i>
+        </div>
+        <div class="author">
+          <span>__</span>
+          <span class="name">Ronwinner</span>
+        </div>
+      </div>
+      <div class="buttons">
+        <div class="features">
+          <button class="qt">New Quote</button>
+        </div>
+      </div>
+    </div>
+    <script>
+      const quoteText = document.querySelector(".quote"),
+    quoteBtn = document.querySelector(".qt"),
+    authorName = document.querySelector(".author .name");
+
+
+function randomQuote() {
+    quoteBtn.classList.add("loading");
+    quoteBtn.innerText = "Loading Quote...";
+    fetch("https://api.quotable.io/random").then(response => response.json()).then(result => {
+        quoteText.innerText = result.content;
+        authorName.innerText = result.author;
+        quoteBtn.classList.remove("loading");
+        quoteBtn.innerText = "New Quote";
+    });
+}
+
+quoteBtn.addEventListener("click", randomQuote);
+    </script>
+
+  </main>
+</body>
+
+
+</html>
